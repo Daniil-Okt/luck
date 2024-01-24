@@ -1,0 +1,95 @@
+// Заголовки, общие БЄМ блоки и проче...
+body {
+    background: #000;
+    color: var(--white-color);
+    line-height: normal;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    .fon {
+        position: absolute;
+        content: '';
+        width: 110%;
+        height: 110%;
+        background: url(@img/body-fon.png) no-repeat center center / cover;
+        top:-5%;
+        left: -5%;
+        @media(max-width:768px){
+            display: none;
+        }
+    }
+    &::before {
+        @media(max-width:768px){
+            position: absolute;
+            content: '';
+            width: 120%;
+            height: 120%;
+            background: url(@img/body-fon-mob.png) no-repeat center center / cover;
+            top:-10%;
+            left: -10%;
+            animation: fon 10s ease infinite;
+            display: block;
+        }
+    }
+}
+
+@keyframes fon {
+    0% {
+        top: -9%;
+        left: -11%;
+    }
+
+    25% {
+        top: -11%;
+        left: -8%;
+    }
+
+    50% {
+        top: -9%;
+        left: -10%;
+    }
+    75% {
+        top: -8%;
+        left: -10%;
+    }
+
+    100% {
+        top: -9%;
+        left: -11%;
+    }
+}
+.violet {
+    color: var(--violet-color);
+  }
+.button {
+    display: inline-block;
+    padding: rem(19) rem(15);
+    @include adaptiveClamp(font-size, 18, 16);
+    min-width: rem(255);
+    border-radius: 12px;
+    background: #8B3FFD;
+    text-align: center;
+    color: var(--white-color);
+    transition: background 0.3s ease-in-out  0s, box-shadow 0.3s ease-in-out  0s, transform 0.1s ease-in-out  0s;
+    cursor: pointer;
+    font-weight: 500;
+    &:hover {
+        background: #7b29f5;
+        box-shadow: 0 0 5px 0 rgba(#8B3FFD, 15%),
+        0 0 10px 0 rgba(#8B3FFD, 15%),
+        0 0 15px 0 rgba(#8B3FFD, 15%);;
+    }
+    &:active {
+        transform: scale(1.02);
+    }
+
+    @media(max-width:768px){
+        font-weight: 600;
+        padding: rem(15) rem(15);
+    }
+}
