@@ -1,16 +1,1 @@
-<svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="41" height="41" rx="8" fill="url(#paint0_linear_107_242)"/>
-<path d="M16.94 29.727C16.231 29.727 16.352 29.46 16.107 28.785L14.025 21.933L30.053 12.424" fill="#C8DAEA"/>
-<path d="M16.94 29.727C17.486 29.727 17.727 29.477 18.032 29.181L20.946 26.347L17.311 24.155" fill="#A9C9DD"/>
-<path d="M17.3112 24.156L26.1192 30.663C27.1242 31.218 27.8492 30.93 28.0992 29.73L31.6852 12.835C32.0522 11.363 31.1252 10.695 30.1632 11.132L9.11022 19.25C7.67322 19.826 7.68022 20.628 8.84822 20.985L14.2502 22.672L26.7582 14.78C27.3482 14.421 27.8912 14.614 27.4462 15.009" fill="url(#paint1_linear_107_242)"/>
-<defs>
-<linearGradient id="paint0_linear_107_242" x1="36.5" y1="3" x2="2.26498e-06" y2="41" gradientUnits="userSpaceOnUse">
-<stop stop-color="#37AEE2"/>
-<stop offset="1" stop-color="#1E96C8"/>
-</linearGradient>
-<linearGradient id="paint1_linear_107_242" x1="1576.64" y1="882.145" x2="1917.74" y2="1659.3" gradientUnits="userSpaceOnUse">
-<stop stop-color="#EFF7FC"/>
-<stop offset="1" stop-color="white"/>
-</linearGradient>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" fill="none"><rect width="41" height="41" fill="url(#a)" rx="8"/><path fill="#C8DAEA" d="M16.94 29.727c-.709 0-.588-.267-.833-.942l-2.082-6.852 16.028-9.509"/><path fill="#A9C9DD" d="M16.94 29.727c.546 0 .787-.25 1.092-.546l2.914-2.834-3.635-2.192"/><path fill="url(#b)" d="m17.311 24.156 8.808 6.507c1.005.555 1.73.267 1.98-.933l3.586-16.895c.367-1.472-.56-2.14-1.522-1.703L9.11 19.25c-1.437.576-1.43 1.378-.262 1.735l5.402 1.687 12.508-7.892c.59-.359 1.133-.166.688.229"/><defs><linearGradient id="a" x1="36.5" x2="0" y1="3" y2="41" gradientUnits="userSpaceOnUse"><stop stop-color="#37AEE2"/><stop offset="1" stop-color="#1E96C8"/></linearGradient><linearGradient id="b" x1="1576.64" x2="1917.74" y1="882.145" y2="1659.3" gradientUnits="userSpaceOnUse"><stop stop-color="#EFF7FC"/><stop offset="1" stop-color="#fff"/></linearGradient></defs></svg>
